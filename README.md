@@ -1,6 +1,6 @@
 # Semana da Estatistica 2022 - UFJF
 
-Prof. Paula Maçaira
+Profa. Paula Maçaira
 
 Palestra: Usando a estatística para prever resultado de teste de COVID-19 no app Dados do Bem
 
