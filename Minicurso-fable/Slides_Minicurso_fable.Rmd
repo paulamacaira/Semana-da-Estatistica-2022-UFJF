@@ -5,6 +5,8 @@ title: |
 author: "Paula Maçaira"
 date: 'Semana da Estatística 2022 - UFJF'
 output: beamer_presentation
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -119,13 +121,33 @@ global_economy
 tourism
 ```
 
-## Convertendo um data frame em tsibble
+## Convertendo um data frame/tibble em tsibble
+
+\tiny
+
+```{r tidy = F}
+consumo = readr::read_csv2("https://raw.githubusercontent.com/paulamacaira/Semana-da-Estatistica-2022-UFJF/main/Minicurso-fable/consumo_energia_2022.csv")
+consumo
+```
+
+O link do arquivo no GitHub é:
+
+"https://raw.githubusercontent.com/paulamacaira/Semana-da-Estatistica-2022-UFJF/main/Minicurso-fable/consumo_energia_2022.csv"
+
+## Convertendo para tsibble
 
 ```{r}
-# importando o arquivo csv do github
-#mudei
+consumo_tsibble = consumo %>%
+  mutate(Data = ) %>% 
+  pivot_longer(-Data, names_to = "Regiao") %>% 
+  mutate(Data = yearmonth(Data, format = "%m/%y"))
+  as_tsibble(index = Data,
+    key = Regiao) %>% 
+  group_by(state) %>% 
+  mutate(MM_mortes = zoo::rollmean(newDeaths, k = 7, fill = NA, align = "right"),
+         MM_casos = zoo::rollmean(newCases, k = 7, fill = NA, align = "right"))
+covid
 
 ```
 
 
-## Inscrições abertas para mestrado e doutorado na PUC-Rio
