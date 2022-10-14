@@ -138,10 +138,9 @@ O link do arquivo no GitHub é:
 
 ```{r}
 consumo_tsibble = consumo %>%
-  pivot_longer(-Data, names_to = "Regiao") %>% 
   mutate(Data = yearmonth(Data)) %>% 
-  as_tsibble(index = Data,
-    key = Regiao)
+  pivot_longer(-Data, names_to = "Regiao") %>% 
+  as_tsibble(index = Data, key = Regiao)
 consumo_tsibble
 ```
 
