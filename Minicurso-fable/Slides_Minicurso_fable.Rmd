@@ -138,16 +138,11 @@ O link do arquivo no GitHub é:
 
 ```{r}
 consumo_tsibble = consumo %>%
-  mutate(Data = ) %>% 
   pivot_longer(-Data, names_to = "Regiao") %>% 
-  mutate(Data = yearmonth(Data, format = "%m/%y"))
+  mutate(Data = yearmonth(Data)) %>% 
   as_tsibble(index = Data,
-    key = Regiao) %>% 
-  group_by(state) %>% 
-  mutate(MM_mortes = zoo::rollmean(newDeaths, k = 7, fill = NA, align = "right"),
-         MM_casos = zoo::rollmean(newCases, k = 7, fill = NA, align = "right"))
-covid
-
+    key = Regiao)
+consumo_tsibble
 ```
 
 
