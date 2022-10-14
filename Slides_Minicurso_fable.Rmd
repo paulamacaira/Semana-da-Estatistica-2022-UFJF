@@ -1,0 +1,131 @@
+---
+title: |
+  ![](logo.png){width=1.5in}  
+  Previsão de Séries Temporais com o {fable}
+author: "Paula Maçaira"
+date: 'Semana da Estatística 2022 - UFJF'
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## Quem sou eu
+
+-   Bacharelado em Estatística (ENCE, 2013)
+-   Mestrado em Eng. Elétrica (PUC-Rio, 2015)
+-   Doutorado em Eng. de Produção (PUC-Rio, 2018)
+-   Pós-doutorado em Eng. de Produção (PUC-Rio, 2019)
+-   Professora Adjunta desde 2019 (DEI, PUC-Rio)
+
+\flushright ![](Paula.png){width="50%"}
+
+## Me encontre em
+
+-   @paula_macaira
+-   github.com/paulamacaira
+-   sites.google.com/view/paulamacaira
+-   [paulamacaira\@puc-rio.br](mailto:paulamacaira@puc-rio.br){.email}
+
+\flushright ![](RedesSociais.png){width="40%"}
+
+## Premissas
+
+-   Presumo que você conheça minimamente a **linguagem R** e o meio ambiente **RStudio**
+-   Suponho que você seja familiarizado com conceitos como **séries temporais, média, desvio padrão, quantis, regressão, distribuição normal, probabilidade** etc.
+
+## Falaremos sobre...
+
+1.  o que é um tsibble
+2.  alguns gráficos de ST
+3.  benchmarks para previsão
+4.  análise dos resíduos
+5.  medidas de acurácia
+6.  métodos de Suavização Exponencial
+7.  modelos de Box & Jenkins
+
+\center ![](Work.png){width="50%"}
+
+## ...
+
+![](LetsGo.png){width="100%"}
+
+## Pacotes necessários
+
+```{r eval = F}
+# Manipulação de dados
+library(tidyverse)
+
+# Manipulação de Séries Temporais
+library(tsibble)
+
+# Funções de Previsão
+library(fable)
+
+# Gráficos e Estatísticas de Séries Temporais
+library(feasts)
+
+# Séries Temporais Tidy
+library(tsibbledata)
+
+# Todos os itens acima e mais
+library(fpp3)
+```
+
+```{r echo = F}
+# Manipulação de dados
+library(tidyverse)
+
+# Manipulação de Séries Temporais
+library(tsibble)
+
+# Funções de Previsão
+library(fable)
+
+# Gráficos e Estatísticas de Séries Temporais
+library(feasts)
+
+# Séries Temporais Tidy
+library(tsibbledata)
+
+# Todos os itens acima e mais
+library(fpp3)
+```
+
+## O que é um tsibble
+
+Um tsibble permite o armazenamento e manipulação de múltiplas séries temporais em R
+
+Ele contêm: 
+
+- um index (informação de tempo);
+- variáveis medidas; e
+- variáveis chave (identificadores únicos opcionais para cada série)
+
+## Alguns exemplos
+
+\tiny
+
+```{r}
+global_economy
+```
+
+## Alguns exemplos
+
+\tiny
+
+```{r}
+tourism
+```
+
+## Convertendo um data frame em tsibble
+
+```{r}
+# importando o arquivo csv do github
+
+
+```
+
+
+## Inscrições abertas para mestrado e doutorado na PUC-Rio
