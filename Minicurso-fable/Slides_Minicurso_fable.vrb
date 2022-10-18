@@ -1,0 +1,10 @@
+\frametitle{Visualizando as previsões dos modelos ajustados}
+\protect\hypertarget{visualizando-as-previsuxf5es-dos-modelos-ajustados}{}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{consumo\_previsoes }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{autoplot}\NormalTok{(consumo\_tsibble }\SpecialCharTok{\%\textgreater{}\%}
+             \FunctionTok{filter}\NormalTok{(}\FunctionTok{year}\NormalTok{(Data) }\SpecialCharTok{\textgreater{}=} \DecValTok{2020}\NormalTok{),}
+           \AttributeTok{level =} \ConstantTok{NULL}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}

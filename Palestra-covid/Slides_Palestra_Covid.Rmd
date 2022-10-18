@@ -1,0 +1,94 @@
+---
+title: "Usando a estatística para prever resultado de teste de COVID-19 no app Dados do Bem"
+author: "Paula Maçaira"
+date: 'Semana da Estatística 2022 - UFJF'
+output: beamer_presentation
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## Quem sou eu
+
+-   Bacharelado em Estatística (ENCE, 2013)
+-   Mestrado em Eng. Elétrica (PUC-Rio, 2015)
+-   Doutorado em Eng. de Produção (PUC-Rio, 2018)
+-   Pós-doutorado em Eng. de Produção (PUC-Rio, 2019)
+-   Professora Adjunta desde 2019 (DEI, PUC-Rio)
+
+\flushright ![](Paula.png){width="50%"}
+
+## Me encontre em
+
+-   @paula_macaira
+-   github.com/paulamacaira
+-   sites.google.com/view/paulamacaira
+-   [paulamacaira\@puc-rio.br](mailto:paulamacaira@puc-rio.br){.email}
+
+\flushright ![](RedesSociais.png){width="40%"}
+
+## ...
+
+![](LetsGo.png){width="100%"}
+
+## O paper
+
+![](logo.png){width=100%}
+
+## A pandemia de COVID-19 e a importância dos testes
+
+- A pandemia de COVID-19 requeriu extensos programas de testes para entender a transmissão, diagnosticar e isolar os casos positivos
+
+- Dada a alta mortalidade e a ausência de um tratamento específico ou de uma vacina confiável, grandes programas de testes foram parte essencial do controle da epidemia
+
+- A frequência dos testes, no entanto, é muito heterogênea entre os países, no Brasil, as taxas de testagem foram uma das mais baixas\footnote{120.548 testes por um milhão de habitantes, em 02 de dezembro de 2020} no mundo, tornando os sistemas de triagem essenciais para priorizar a testagem
+
+## Objetivo do estudo
+
+Sabendo então da importância da triagem para priorização da testagem para COVID-19, o presente estudo usou a **combinação de sintomas e técnicas de aprendizado de máquina para desenvolver um modelo preditivo** que identifique pessoas e áreas com maior risco de infecção por SARS-CoV-2
+
+## Fonte dos dados
+
+- Este estudo utilizou dados coletados de indivíduos cadastrados no aplicativo "Dados do Bem"\footnote{lançado no Brasil em 28 de abril de 2020}
+
+- Por meio de uma breve pesquisa, o aplicativo coleta:
+  + Dados georreferenciados dos usuários inscritos
+  + Características demográficas e ocupacionais
+  + Sintomas autorreferidos
+  + Se o participante é profissional de saúde
+  + Se o participante esteve em contato com uma pessoa infectada por SARS-CoV-2
+
+## Interface do aplicativo
+
+![](DDB.png){width=100%}
+
+## Como era a priorização...
+  
+- Antes do estudo, o aplicativo combinava as informações pesquisadas e selecionava indivíduos para teste por meio de alguns critérios de seleção, como por exemplo: **aqueles que haviam sido indicados por um participante previamente testado positivamente tinha a maior prioridade para serem testados, seguidos pelos profissionais de saúde**
+
+## Como o estudo foi desenhado
+
+- Foram incluídos participantes cadastrados no aplicativo desde sua data de lançamento (28 de abril) até 16 de julho de 2020
+
+- Para treinar o modelo, foram selecionados os participantes que responderam ao questionário, fizeram o teste do anticorpo e obteviram um resultado conclusivo (positivo ou negativo)
+
+- Para a identificação das áreas de risco, foram incluídos também os participantes que não haviam sido testados, aplicando o modelo para estimar os resultados de seus testes
+
+## Resultados e variáveis
+
+- Como o objetivo do estudo foi identificar manifestações clínicas e fatores individuais associados a testes com resultados positivos, as variáveis coletadas e analisadas foram:
+  + dados demográficos dos participantes (idade, sexo)
+  + sintomas (perda de olfato ou anosmia, febre, mialgia, tosse, náusea, falta de ar, diarreia, coriza e dor de garganta)
+  + se o usuário mora junto com alguém com infecção confirmada por SARS-CoV-2
+  + resultado do teste de COVID
+  
+## Análise estatística
+
+![](Table1.png){width=100%}
+
+## Inscrições abertas para Mestrado e Doutorado na PUC-Rio
+
+\center ![](mestradoPUCRio.jpeg){width=70%}
