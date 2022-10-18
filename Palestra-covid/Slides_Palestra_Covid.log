@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.2.3)  17 OCT 2022 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.2.3)  18 OCT 2022 14:34
 entering extended mode
 **./Slides_Palestra_Covid.tex
 (Slides_Palestra_Covid.tex
@@ -1106,74 +1106,152 @@ Package pdftex.def Info: RedesSociais.png  used on input line 147.
 [3
 
  <./RedesSociais.png>]
-<LetsGo.png, id=39, 1445.4pt x 813.0375pt>
-File: LetsGo.png Graphic file (type png)
-<use LetsGo.png>
-Package pdftex.def Info: LetsGo.png  used on input line 152.
-(pdftex.def)             Requested size: 307.29231pt x 172.85191pt.
+<grupos.jpg, id=39, 1374.0936pt x 237.0456pt>
+File: grupos.jpg Graphic file (type jpg)
+<use grupos.jpg>
+Package pdftex.def Info: grupos.jpg  used on input line 152.
+(pdftex.def)             Requested size: 307.29166pt x 53.01103pt.
 [4
 
+ <./grupos.jpg>]
+<LetsGo.png, id=46, 1445.4pt x 813.0375pt>
+File: LetsGo.png Graphic file (type png)
+<use LetsGo.png>
+Package pdftex.def Info: LetsGo.png  used on input line 157.
+(pdftex.def)             Requested size: 307.29231pt x 172.85191pt.
+[5
+
  <./LetsGo.png>]
-<logo.png, id=47, 1132.98282pt x 545.78906pt>
+<logo.png, id=54, 1132.98282pt x 545.78906pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 157.
+Package pdftex.def Info: logo.png  used on input line 162.
 (pdftex.def)             Requested size: 307.29248pt x 148.03125pt.
-[5
+[6
 
  <./logo.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 176.
+(Font)              <9> on input line 181.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 176.
+(Font)              <5> on input line 181.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 176.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 176.
-[6
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+[7
 
-] [7
+] [8
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 212.
+(Font)              <10> on input line 217.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 212.
+(Font)              <7> on input line 217.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 212.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 217.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 212.
-[8
-
-]
-<DDB.png, id=77, 840.13875pt x 340.27126pt>
-File: DDB.png Graphic file (type png)
-<use DDB.png>
-Package pdftex.def Info: DDB.png  used on input line 217.
-(pdftex.def)             Requested size: 307.28265pt x 124.45497pt.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 217.
 [9
 
- <./DDB.png>] [10
+]
+<DDB.png, id=84, 840.13875pt x 340.27126pt>
+File: DDB.png Graphic file (type png)
+<use DDB.png>
+Package pdftex.def Info: DDB.png  used on input line 222.
+(pdftex.def)             Requested size: 307.28265pt x 124.45497pt.
+[10
 
-] [11
+ <./DDB.png>] [11
 
 ] [12
 
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
+
+] [19
+
 ]
-<Table1.png, id=103, 598.6365pt x 398.6895pt>
+<Table1.png, id=152, 598.6365pt x 398.6895pt>
 File: Table1.png Graphic file (type png)
 <use Table1.png>
-Package pdftex.def Info: Table1.png  used on input line 277.
+Package pdftex.def Info: Table1.png  used on input line 417.
 (pdftex.def)             Requested size: 307.29189pt x 204.65515pt.
-[13
+[20
 
  <./Table1.png>]
-<mestradoPUCRio.jpeg, id=111, 1084.05pt x 1084.05pt>
+<Fig1.png, id=159, 414.8955pt x 242.1045pt>
+File: Fig1.png Graphic file (type png)
+<use Fig1.png>
+Package pdftex.def Info: Fig1.png  used on input line 422.
+(pdftex.def)             Requested size: 307.30273pt x 179.32077pt.
+[21
+
+ <./Fig1.png>] [22
+
+]
+<Fig2.png, id=172, 490.122pt x 314.703pt>
+File: Fig2.png Graphic file (type png)
+<use Fig2.png>
+Package pdftex.def Info: Fig2.png  used on input line 444.
+(pdftex.def)             Requested size: 307.30519pt x 197.31795pt.
+[23
+
+ <./Fig2.png>]
+<Equacao.png, id=179, 699.8145pt x 219.82124pt>
+File: Equacao.png Graphic file (type png)
+<use Equacao.png>
+Package pdftex.def Info: Equacao.png  used on input line 456.
+(pdftex.def)             Requested size: 307.2893pt x 96.52374pt.
+[24
+
+ <./Equacao.png>]
+<Fig3.png, id=186, 344.487pt x 191.5155pt>
+File: Fig3.png Graphic file (type png)
+<use Fig3.png>
+Package pdftex.def Info: Fig3.png  used on input line 463.
+(pdftex.def)             Requested size: 307.30208pt x 170.84274pt.
+[25
+
+ <./Fig3.png>]
+<Table2.png, id=194, 643.203pt x 418.56375pt>
+File: Table2.png Graphic file (type png)
+<use Table2.png>
+Package pdftex.def Info: Table2.png  used on input line 468.
+(pdftex.def)             Requested size: 307.2912pt x 199.96945pt.
+[26
+
+ <./Table2.png>]
+<Fig4.png, id=201, 1364.09625pt x 906.38625pt>
+File: Fig4.png Graphic file (type png)
+<use Fig4.png>
+Package pdftex.def Info: Fig4.png  used on input line 476.
+(pdftex.def)             Requested size: 307.28308pt x 204.17705pt.
+
+Overfull \vbox (1.83307pt too high) detected at line 476
+ []
+
+[27
+
+ <./Fig4.png>] [28
+
+] [29
+
+]
+<mestradoPUCRio.jpeg, id=221, 1084.05pt x 1084.05pt>
 File: mestradoPUCRio.jpeg Graphic file (type jpg)
 <use mestradoPUCRio.jpeg>
-Package pdftex.def Info: mestradoPUCRio.jpeg  used on input line 282.
+Package pdftex.def Info: mestradoPUCRio.jpeg  used on input line 531.
 (pdftex.def)             Requested size: 215.08586pt x 215.08586pt.
-[14
+[30
 
  <./mestradoPUCRio.jpeg>]
 \tf@nav=\write5
@@ -1187,26 +1265,28 @@ Package pdftex.def Info: mestradoPUCRio.jpeg  used on input line 282.
 
 (Slides_Palestra_Covid.aux) ) 
 Here is how much of TeX's memory you used:
- 23402 strings out of 478927
- 437785 string characters out of 2852536
- 748460 words of memory out of 3000000
- 40575 multiletter control sequences out of 15000+600000
- 484249 words of font info for 137 fonts, out of 8000000 for 9000
+ 23566 strings out of 478927
+ 440281 string characters out of 2852536
+ 749460 words of memory out of 3000000
+ 40667 multiletter control sequences out of 15000+600000
+ 485057 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,124p,1020b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,11n,124p,1020b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/paula/AppData/Local/Programs/MiKTeX/font
-s/enc/dvips/lm/lm-ec.enc}<C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmss10.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmss12.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmss8.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/lm/lmss9.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmssbx10.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on Slides_Palestra_Covid.pdf (14 pages, 5742082 bytes).
+s/enc/dvips/lm/lm-ec.enc}{C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/en
+c/dvips/lm/lm-rm.enc}<C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/lm/lmss10.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/lm/lmss12.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/lm/lmss8.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/lm/lmss9.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/lm/lmssbx10.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/lm/lmsso10.pfb><C:/Users/paula/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/symbols/msam10.pfb>
+Output written on Slides_Palestra_Covid.pdf (30 pages, 7685986 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 49230 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 49265 words of extra memory for PDF output out of 51595 (max. 10000000)
 
 
 ! pdflatex: major issue: So far, you have not checked for MiKTeX updates.
